@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="htmlview.xslt"?>
+<layouts>
+	<layout name="root">
+		<row>
+			<button type="tag" label="left" icon="ways_icons/junction_left.png" />
+			<button type="tag" label="cross" icon="ways_icons/junction_cross.png" />
+			<button type="tag" label="right" icon="ways_icons/junction_right.png" />
+		</row>
+		<row>
+			<button type="tag" label="cross left" icon="ways_icons/junction_cross_left.png" />
+			<button type="tag" label="no cross left right" icon="ways_icons/junction_cross_left_right.png" />
+			<button type="tag" label="cross right" icon="ways_icons/junction_cross_right.png" />
+		</row>
+		<row>
+			<button type="tag" label="no left" icon="ways_icons/no_leftturn.png" />
+			<button type="tag" label="no way" icon="ways_icons/noway.png" />
+			<button type="tag" label="no right" icon="ways_icons/no_rightturn.png" />
+			<button type="tag" label="split" icon="ways_icons/split.png" />
+		</row>
+		<row>
+			<button type="tag" label="single way" icon="ways_icons/two_way_single.png" />
+			<button type="tag" label="two way" icon="ways_icons/two_way.png" />
+			<button type="tag" label="one way" icon="ways_icons/one_way.png" />
+			<button type="tag" label="zebra" icon="ways_icons/zebra_crossing.png" />
+		</row>
+		<row>
+			<button type="page" label="Ways" icon="ways_icons/way.png" targetlayout="ways" />
+			<button type="page" label="Misc" icon="ways_icons/misc.png" targetlayout="misc" />
+			<button type="page" label="Restrictions" icon="ways_icons/restriction.png" targetlayout="restriction" />
+			<button type="page" label="Speed limits" icon="ways_icons/100.png" targetlayout="speed_limits" />
+		</row>
+	</layout>
+
+	<layout name="misc">
+		<row>
+			<button type="voicerec" icon="logo_voice" />
+			<button type="picture" icon="logo_camera" />
+			<button type="textnote" icon="logo_textnote" />
+			<button type="tag" label="XXXXXXXX" icon="ways_icons/delete.png" />
+		</row>
+		<row>
+			<button type="tag" label="Bus stop LEFT" icon="ways_icons/bus_stop.png" />
+			<button type="tag" label="Bus stop RIGHT" icon="ways_icons/bus_stop.png" />
+		</row>
+		<row>
+			<button type="tag" label="Post office" icon="ways_icons/post_office.png" />
+			<button type="tag" label="Post box" icon="ways_icons/post_box.png" />
+			<button type="tag" label="ATM" icon="ways_icons/atm.png" />
+			<button type="tag" label="Bank" icon="ways_icons/bank.png" />
+		</row>
+		<row>
+			<button type="tag" label="Playground" icon="ways_icons/playground.png" />
+			<button type="tag" label="Toilets" icon="ways_icons/toilets.png" />
+			<button type="tag" label="Bench" icon="ways_icons/bench.png" />
+			<button type="tag" label="Water" icon="ways_icons/drinking_water.png" />
+		</row>
+		<row>
+			<button type="tag" label="Fuel station" icon="ways_icons/fuel_station.png" />
+			<button type="tag" label="Parking" icon="ways_icons/car_parking.png" />
+			<button type="tag" label="Taxi" icon="ways_icons/taxi.png" />
+		</row>
+		<row>
+			<button type="tag" label="School" icon="ways_icons/school.png" />
+			<button type="tag" label="Police" icon="ways_icons/police.png" />
+			<button type="tag" label="Restaurant" icon="ways_icons/restaurant.png" />
+			<button type="tag" label="Fast food" icon="ways_icons/fastfood.png" />
+		</row>
+		<row>
+			<button type="tag" label="Waste basket" icon="ways_icons/trash.png" />
+			<button type="tag" label="Recycling" icon="ways_icons/recycling.png" />
+			<button type="tag" label="Bottle Rec." icon="ways_icons/bottle.png" />
+			<button type="tag" label="Paper Rec." icon="ways_icons/paper.png" />
+		</row>
+	</layout>
+
+	<layout name="restriction">
+		<row>
+			<button type="tag" label="No exit" icon="ways_icons/no_exit.png" />
+			<button type="tag" label="traffic light" icon="ways_icons/traffic_light.png" />
+			<button type="tag" label="Stop" icon="ways_icons/stop.png" />
+			<button type="tag" label="Bollard" icon="ways_icons/bollard.png" />
+		</row>
+	</layout>
+
+	<layout name="speed_limits">
+		<row>
+			<button type="tag" label="Max 5" icon="ways_icons/5.png" />
+			<button type="tag" label="Max 10" icon="ways_icons/10.png" />
+			<button type="tag" label="Max 15" icon="ways_icons/15.png" />
+			<button type="tag" label="Max 20" icon="ways_icons/20.png" />
+		</row>
+		<row>
+			<button type="tag" label="Max 25" icon="ways_icons/25.png" />
+			<button type="tag" label="Max 30" icon="ways_icons/30.png" />
+			<button type="tag" label="Max 40" icon="ways_icons/40.png" />
+			<button type="tag" label="Max 50" icon="ways_icons/50.png" />
+		</row>
+		<row>
+			<button type="tag" label="Max 60" icon="ways_icons/60.png" />
+			<button type="tag" label="Max 70" icon="ways_icons/70.png" />
+			<button type="tag" label="Max 80" icon="ways_icons/80.png" />
+			<button type="tag" label="Max 90" icon="ways_icons/90.png" />
+		</row>
+		<row>
+			<button type="tag" label="Max 100" icon="ways_icons/100.png" />
+			<button type="tag" label="Max 110" icon="ways_icons/110.png" />
+			<button type="tag" label="Max 120" icon="ways_icons/120.png" />
+			<button type="tag" label="Max 130" icon="ways_icons/130.png" />
+		</row>
+	</layout>
+	
+	<layout name="ways">
+		<row>
+			<button type="tag" label="Bridge" icon="ways_icons/way_bridge.png" />
+			<button type="tag" label="Service" icon="ways_icons/way_service.png" />
+			<button type="tag" label="Living street" icon="ways_icons/living_street.png" />
+		</row>
+		<row>
+			<button type="tag" label="Secondary" icon="ways_icons/way_secondary.png" />
+			<button type="tag" label="Residential" icon="ways_icons/way_residential.png" />
+			<button type="tag" label="Pedestrian" icon="ways_icons/way_pedestrian.png" />
+		</row>
+		<row>
+			<button type="tag" label="Track" icon="ways_icons/way_track.png" />
+			<button type="tag" label="Path" icon="ways_icons/way_track.png" />
+			<button type="tag" label="Ford" icon="ways_icons/way_track.png" />
+		</row>
+		<row>
+			<button type="tag" label="Steps" icon="ways_icons/way_steps.png" />
+			<button type="tag" label="Footway" icon="ways_icons/way_footway.png" />
+			<button type="tag" label="Cycleway" icon="ways_icons/way_cycleway.png" />
+
+		</row>
+		<row>
+			<button type="tag" label="Trunk" icon="ways_icons/way_trunk.png" />
+			<button type="tag" label="Primary" icon="ways_icons/way_primary.png" />
+			<button type="tag" label="Tertiary" icon="ways_icons/way_tertiary.png" />
+		</row>
+
+	</layout>
+</layouts>
