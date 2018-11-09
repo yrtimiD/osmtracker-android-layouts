@@ -2,7 +2,7 @@
 
 #### Html Preview
 `
-xsltproc htmlview.xslt ways.xml >ways.html
+xsltproc htmlview.xslt en.xml >ways.html
 `
 
 
